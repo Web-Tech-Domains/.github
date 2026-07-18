@@ -1,0 +1,33 @@
+name: Question / Support
+description: Ask a question or request help, separate from a bug report
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do, and what have you already tried?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Website / product front-end
+        - AI chat / assistant
+        - Admin panel / CRM
+        - Plugins / integrations
+        - Payments / leads
+        - API / backend
+        - Other
+    validations:
+      required: true

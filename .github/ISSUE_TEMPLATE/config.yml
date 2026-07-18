@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/Web-Tech-Domains/.github/security/advisories/new
+    about: Do not open a public issue for security vulnerabilities — use private security advisory reporting instead. See SECURITY.md.
+  - name: 💬 Contact us
+    url: https://webtechdomains.in
+    about: General enquiries and support — info@webtechdomains.in / support@webtechdomains.in

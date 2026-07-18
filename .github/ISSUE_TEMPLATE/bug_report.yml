@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report something that's broken
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Website / product front-end
+        - AI chat / assistant
+        - Admin panel / CRM
+        - Plugins / integrations
+        - Payments / leads
+        - API / backend
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical (production down / security issue)
+        - High (major feature broken)
+        - Medium (minor feature broken)
+        - Low (cosmetic)
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, PHP/Node version — whatever's relevant.
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots / logs
+      description: Paste any relevant screenshots, error messages, or log output.
