@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # Keep GitHub Actions up to date across the org's repos.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "ci"
+
+# Note: dependabot.yml only applies within the repository it's committed to —
+# it is not inherited org-wide from this .github repo. Copy this file into
+# each repository and add the relevant package ecosystem (composer, npm,
+# pip, etc.) for that project.

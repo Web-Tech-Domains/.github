@@ -1,0 +1,8 @@
+# Default owner for all files in this repository.
+* @Web-Tech-Domains/approvers
+
+# GitHub templates and repo governance require review from the org owner.
+/.github/ @souravlai7
+
+# Individual repositories should add their own CODEOWNERS file to define
+# ownership for their own source directories (e.g. /plugins/, /app/, /src/).
