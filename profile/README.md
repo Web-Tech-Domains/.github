@@ -95,7 +95,7 @@ Clients & Leads · Invoices, Estimates, Proposals & Contracts (with e-signature)
 **Meetings & Collaboration**
 - Zoom, Google Meet, Jitsi & Microsoft Teams Integrations
 - Whiteboards (real-time collaborative drawing)
-- RiseWiki (team knowledge base + mind maps)
+- Team Wiki (internal knowledge base + mind maps)
 - Polls
 - Toast Master
 
@@ -108,7 +108,7 @@ Clients & Leads · Invoices, Estimates, Proposals & Contracts (with e-signature)
 - Assets Management
 
 **Security & Access**
-- Riseguard (login monitoring & anomaly alerts)
+- Login Security Monitor (login monitoring & anomaly alerts)
 - Two-Factor Authentication
 - Social Login (Google / Facebook)
 - Password Manager
